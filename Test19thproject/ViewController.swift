@@ -40,11 +40,11 @@ class ViewController: UIViewController {
         
         // Third label...
         
-        let label2 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-                  label2.center = CGPoint(x: 160, y: 285)
-                  label2.textAlignment = .center
-                  label2.text = "I'm a test label"
-                  self.view.addSubview(label2)
+        let label3 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+                  label3.center = CGPoint(x: 160, y: 285)
+                  label3.textAlignment = .center
+                  label3.text = "I'm a test label"
+                  self.view.addSubview(label3)
         
         
     }
