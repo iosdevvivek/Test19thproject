@@ -62,6 +62,22 @@ class ViewController: UIViewController {
                   label5.text = "I'm a test label"
                   self.view.addSubview(label5)
         
+        // six label...
+               
+               let label6 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+                         label6.center = CGPoint(x: 160, y: 285)
+                         label6.textAlignment = .center
+                         label6.text = "I'm a test label"
+                         self.view.addSubview(label6)
+        
+        // seven label...
+        
+        let label7 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+                  label7.center = CGPoint(x: 160, y: 285)
+                  label7.textAlignment = .center
+                  label7.text = "I'm a test label"
+                  self.view.addSubview(label7)
+        
         
     }
 
